@@ -1,10 +1,10 @@
-# 📈 Linear Regression from Scratch
+# Linear Regression from Scratch
 
 A hands-on implementation of **univariate linear regression** built entirely from scratch using NumPy — no scikit-learn, no black boxes. This project walks through the core mathematics of machine learning: the cost function, gradient computation, and gradient descent optimization, applied to a real-world salary prediction dataset.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This notebook demonstrates how a machine learning model learns by iteratively minimizing prediction error. Given a dataset of years of experience and corresponding salaries, the model learns the best-fit line through gradient descent.
 
@@ -14,7 +14,7 @@ This notebook demonstrates how a machine learning model learns by iteratively mi
 
 ---
 
-## 🧠 Concepts Implemented
+## Concepts Implemented
 
 ### 1. Linear Model
 The prediction function takes the form:
@@ -52,14 +52,14 @@ Trained with `learning_rate = 0.01` over `10,000 iterations`, with cost logged e
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 - **Scatter plot** of Salary vs. Years of Experience
 - **Prediction line overlay** plotted against training data after gradient descent converges
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── basic.ipynb          # Main notebook
@@ -69,7 +69,7 @@ Trained with `learning_rate = 0.01` over `10,000 iterations`, with cost logged e
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```bash
 pip install numpy pandas matplotlib
@@ -78,6 +78,6 @@ pip install numpy pandas matplotlib
 No other dependencies — the regression algorithm is fully hand-coded.
 
 ---
-## 📄 License
+## License
 
 MIT
